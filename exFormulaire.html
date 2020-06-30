@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exFormulaire.css">
+</head>
+<body>
+<div class="doc">
+    <h1>Formulaire d'enquête sur les médias sociaux</h1>
+<div class="formulaire">
+    <h2>Veuillez remplir tous les champs</h2>
+<form action="">
+    <label for="nom">*Nom</label><br>
+    <input type="text" name="nom"><br>
+    <label for="email">*Email</label><br>
+    <input type="text" name="email"><br>
+    <label for="age">*Age</label><br>
+    <input type="text" name="age"><br>
+</form>
+<br><br>
+<form action="">
+    <label for="application">Quelle application sur les réseaux sociaux utilisez vous?</label>
+    <select name="application" id="application">
+    <option value="firefox">Firefox</option>
+    <option value="chrome">Google Chrome</option>
+    <option value="explorer">Explorer</option>
+    </select>
+</form>
+<br><br>
+<form action="">
+    <div class="ptiTitre">
+    <label for="">Combien d'heures utilisez-vous?</label>
+    </div>
+    <div class="menuPoint">
+        <label for="0a1">0-1 heure</label>
+        <input type="radio" id="0a1" value="0a1" name="0a1"><br>
+        <label for="1a2">1-2 heures</label>
+        <input type="radio" id="1a2" name="1a2" value="1a2"><br>
+        <label for="2a3">2-3 heures</label>
+        <input type="radio" name="2a3" value="2a3"><br>
+        <label for="3a4">3-4 heures</label>
+        <input type="radio" name="3a4" value="3a4"><br>
+        <label for="4">4 heures et plus</label>
+        <input type="radio" name="4" value="4"><br>
+    </div>
+</form>
+<br><br>
+<form action="">
+    <label for="">Pourquoi utilisez-vous cette application?</label>
+    <div class="menuPoint">
+        <label for="actu">Actualités</label>
+        <input type="radio" name="actu" value="actu"><br>
+        <label for="pro">Professionnel</label>
+        <input type="radio" name="pro" value="pro"><br>
+        <label for="voyage">Voyages</label>
+        <input type="radio" name="voyage" value="voyage"><br>
+        <label for="passe">Passe-temps</label>
+        <input type="radio" name="passe" value="passe"><br>
+        <label for="inspiration">Inspirations</label>
+        <input type="radio" name="inspiratioon" value="inspiration"><br>
+    </div>
+</form>
+<br><br>
+<form action="">
+    <label for="">Des commentaires ou suggestions?</label>
+    <textarea name="text" id="text" cols="20" rows="6"></textarea>
+</form>
+<br><br>
+<button type="submit">Envoyer</button>
+<br><br>
+</div>
+</div>
+</body>
+</html>

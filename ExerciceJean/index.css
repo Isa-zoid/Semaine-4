@@ -1,0 +1,29 @@
+/*Fichier css qui m'est propre dans lequel je mets
+tout le style qui ne concerne pas le positionnement*/
+h1 {font-size: 20px;}
+
+article {
+    height: 120px;
+    margin-top: 40px;
+    
+}
+.nom{
+    text-align: center;
+}
+.prix{
+    text-align: right;
+}
+.red {
+    border: solid;
+}
+
+.green {
+    border: solid;
+}
+
+.blue {
+    border: solid;
+}
+
+
+
